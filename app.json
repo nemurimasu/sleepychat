@@ -1,0 +1,6 @@
+{
+  "name": "hyptochat",
+  "image": "heroku/nodejs",
+  "repository": "https://github.com/MrMeapify/sleepychat",
+  "addons": ["mongolab"]
+}
