@@ -1,4 +1,3 @@
-require('newrelic');
 console.log("App started at: " + new Date().toUTCString());
 
 var express = require('express');
