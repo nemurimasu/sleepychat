@@ -268,7 +268,7 @@ $(document).ready(function()
     
     setUpModal();
     
-	socket = io("/", { reconnection: false, transport: ['websocket'] });
+	socket = io(null, { reconnection: false, transport: ['websocket'] });
 
 	$('#loginform').submit(function()
 	{
